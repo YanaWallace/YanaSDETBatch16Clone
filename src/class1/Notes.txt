@@ -60,6 +60,22 @@ Some shortcuts to write code quickly;
     2) To print something on the console we write "sout" and hit
     the enter button or the tab button, and it should auto complete
     the print statement for you.
+What are comments:
+    Comments are like notes that we write with java code to explain how the
+    code is working. These comments are ignored by java. There are two ways
+    we can write comments
+    1) Single line comments 2) multiline comments
+Single line comments:
+    we use two forward slashes //
+    example // This is  a comment
+Multiline comments:
+    We use /* THis is a multiline comment
+    another line
+    another line
+    */
+Syntax:
+    is set of rules that we must follow to write java code just like we follow
+    punctuation when we write English.
 
 
 
