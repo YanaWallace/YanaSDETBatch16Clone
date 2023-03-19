@@ -11,6 +11,16 @@ public class FaceBookExample {
         //System.out.println(mobileNumber);
          String mobileNumber="+1777-985-5070";
          String password="Pass@123";
+         int dayOfMonth=7;
+         String month="Mar";
+         int year=2023;
+         String gender="Female";
+
+        System.out.println(firstName+" "+surName);
+        System.out.println(mobileNumber);
+        System.out.println(password);
+        System.out.println(dayOfMonth+" "+month+" "+year);
+        System.out.println(gender);
 
     }
 }
