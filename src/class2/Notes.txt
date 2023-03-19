@@ -57,4 +57,10 @@ Rules About variables:
     Demo3 Class.
     4) If we want to print multiple variable values in a single like we can
     use String concatenation refer to StringConcatenationDemo
-    5) We can access a variable before declaring it
+    5) We can't access a variable before declaring it. Refer to VariablesDemo4
+    6) We can ask to print the value of something if we don't initialize it. VariablesDemo5
+Arithmetic operators:
+    Arithmetic operators in java are symbols that we use to perform simple basic
+    Aromatic operations like Addition(+) subtraction(-) multiplication(*)
+    Division(/) modules operator(%)
+
