@@ -1,0 +1,25 @@
+What are variables?
+   When we have to make a computer do something for us, we have to provide the computer
+   with instructions and data. To store this data we need something that can help us store and
+   retrieve this information when we need it. Variables help us store this data.
+   There are 8 basic types of variables in java. These are called primitive data types.
+   1) byte 2) short 3) int 4) long 5) float 6) double 7) char 8) boolean
+Data types to store simple numbers:
+    When ever we have whole numbers the numbers  without the decimal parts like
+    10,50,10000,666,8888888885,-4585,-45 we use the below data types
+    byte, short, int , long but as a tester 99% of the time we will be using int
+    data type to store whole numbers.
+
+
+Data types to store floating point Number/decimal numbers:
+    Whenever we have to store floating point numbers like 10.5, 2.3 -5.6,0.0001 etc.
+    we use below data types.
+    1)float 2) double
+    99% of the time double is used and that's what we as a tester will be using
+
+Note:
+    All the primitive data types start with lowercase letters like byte,short,int
+    long, float, double, char, boolean.
+DataType:
+    is a mechanism that helps computer to store specific type of information and
+    also helps it to perform calculation on that information
