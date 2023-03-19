@@ -17,9 +17,44 @@ Data types to store floating point Number/decimal numbers:
     1)float 2) double
     99% of the time double is used and that's what we as a tester will be using
 
-Note:
-    All the primitive data types start with lowercase letters like byte,short,int
-    long, float, double, char, boolean.
+
 DataType:
     is a mechanism that helps computer to store specific type of information and
-    also helps it to perform calculation on that information
+    also helps it to perform calculation on that information.
+Data type to store characters:
+    char is the data type that we use to store the single characters like
+    'a' ,'Z','-','+','1','@' etc. we can store numbers letters and special characters
+    in char data type.
+Data types to store true/false:
+    we use the data type boolean to store ONLY true/false in java.
+    is it raining=false
+    are you hungry=true;
+
+Data types to store words:
+    We can use the String data type to store multiple characters together like
+    "USA", "New york", "I am starving and I mean it","2763r4374","@%^#","3".
+    String is a non-primitive(Advance) data type, because ot is a non-primitive
+    data type that's why the first letter is always uppercase
+Note:
+    1)All the primitive data types start with lowercase letters like byte,short,int
+    long, float, double, char, boolean.
+    2) In java we follow two conventions to name class and variables
+    class:
+        First letter of all the words is in uppercase always
+        BooleanDemo
+        VariablesDemo
+    variables:
+        first letter of the first word is lower case but for rest of the words we
+        use the uppercase letter for their first word.
+        isItRaining
+        myAge
+        areYouHungry
+Rules About variables:
+    1) We can't have same name variables twice in a java class or method. Refer to VariablesDemo1
+    2) Java is caseSensitive which means for java age and AGE are two totally
+    different things refer to VariablesDemo2 class.
+    3) We can update the value of a variable as many times as we want. refer to Variables
+    Demo3 Class.
+    4) If we want to print multiple variable values in a single like we can
+    use String concatenation refer to StringConcatenationDemo
+    5) We can access a variable before declaring it
