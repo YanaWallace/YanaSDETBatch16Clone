@@ -1,0 +1,17 @@
+Arithmetic Operations in java:
+    Modulus operator/remainder (%):
+    When we use the int data type we can use this operator to get the remainder part. For example
+    if we take the remainder of 11 by 5 we will get 1. We can use this operator to find out if
+    a number is multiple of another number if a number is even or odd number etc.
+String concatenation:
+    String concatenation allows us to attach two Strings or one String with any other data type.
+    The result will always be a type of String and those two data types will be combined.
+
+
+
+
+Note:
+    1) TO rename something we should use the refactor feature from intellij. It
+    automatically renames everything. Right click and then select the refactor feature.
+    Shortcut shift+f6
+
