@@ -43,8 +43,16 @@ why we need type casting?
 Syntax:
     double num=10.2512222215514102;
     int num2=(int)num; => 10;
-
-
+Relational Operators:
+    Relational operators are again some symbols that we use to perform comparison between data.
+    int num1=10;
+    int num2=20;
+   1) num1>num2 => 10>20 => false is num1's value greater than num2's value
+   2) num2<num1 => 20<10 => false  is num2 less than num1
+   3) num1==num2 => 10=20 => false is num2 equal to num1
+   4) num1!=num2 => 10!=20 => true is num1 no equal to num2
+   5) num1>=num2 => num1>num2 or num1==num2 => false
+   6) num1<=num2 => num1<num2 or num1==num2 => true
 
 
 
