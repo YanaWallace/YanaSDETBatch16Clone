@@ -26,7 +26,7 @@ Examples:
     1) int num=10;
     num+=10; =>20
     2) double num=20;
-    num-=5; => 15
+    num-=5; => 15.0
     3) float num=11F;
     num/=2; =>5.5
     4) int number=13;
@@ -34,7 +34,15 @@ Examples:
     5) int num=0;
     num++; => 1
     6) double num=0;
-    num--; =>-1
+    num--; =>-1.0
+Type casting:
+    Type casting is the process of converting one data type to another one.
+why we need type casting?
+    It's very rare that we will be doing type casting. at max, you might convert and double
+    to an int to only get the whole number part.
+Syntax:
+    double num=10.2512222215514102;
+    int num2=(int)num; => 10;
 
 
 
@@ -44,4 +52,7 @@ Note:
     1) TO rename something we should use the refactor feature from intellij. It
     automatically renames everything. Right click and then select the refactor feature.
     Shortcut shift+f6
+    2) to change the font size using mouse double-click the shift button quickly and type
+    change font and turn-on the setting. Once the setting is on hoild the ctrl+wheel to incease
+    and decrease the size
 
