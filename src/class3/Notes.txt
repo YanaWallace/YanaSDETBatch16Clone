@@ -4,8 +4,38 @@ Arithmetic Operations in java:
     if we take the remainder of 11 by 5 we will get 1. We can use this operator to find out if
     a number is multiple of another number if a number is even or odd number etc.
 String concatenation:
-    String concatenation allows us to attach two Strings or one String with any other data type.
+    1)String concatenation allows us to attach two Strings or one String with any other data type.
+    String result="Messi"+10=> Messi10
     The result will always be a type of String and those two data types will be combined.
+    2) Normally java executes the code from top to bottom and from left to right however this
+    can be different if we use parenthesis, or we are doing pure math calculations for example
+    multiplication has precedence over addition and subtraction (BODMAS) rules.
+    1) 2+2*2=>6
+    2) (2+2)*2=>8
+    3) "Leo"+20+20=>Leo2020
+    4) 20+20+"Leo"=>40Leo
+    5) "Leo"+(10+20)=>Leo30
+ShortHandOperators:
+    Allow us to perform operations by writing less code.
+    int num=2;
+    num+=10;
+    it means add 10 to the previous value of num which is 2 10+2=>12
+    +=, -= , /= ,*= %= ,++, --
+    ++ means increase the value of a variable by 1
+Examples:
+    1) int num=10;
+    num+=10; =>20
+    2) double num=20;
+    num-=5; => 15
+    3) float num=11F;
+    num/=2; =>5.5
+    4) int number=13;
+    number%=4;=> 1
+    5) int num=0;
+    num++; => 1
+    6) double num=0;
+    num--; =>-1
+
 
 
 
