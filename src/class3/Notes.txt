@@ -53,7 +53,13 @@ Relational Operators:
    4) num1!=num2 => 10!=20 => true is num1 no equal to num2
    5) num1>=num2 => num1>num2 or num1==num2 => false
    6) num1<=num2 => num1<num2 or num1==num2 => true
-
+If else Statements:
+    If else statements help us write programs that can take divisions based on data.
+    they work based on the boolean values
+Syntax:
+    if(condition){
+    // write code here that you want to execute if condition is true
+    }
 
 
 Note:

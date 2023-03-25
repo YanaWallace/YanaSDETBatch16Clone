@@ -8,5 +8,10 @@ public class E18IfStatements {
         if(accountBalance>1000){
             System.out.println("yay let's go shopping");
         }
+
+        char gender='M';
+        if(gender=='F'){
+            System.out.println("We always like shopping");
+        }
     }
 }
