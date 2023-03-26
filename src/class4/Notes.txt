@@ -1,0 +1,21 @@
+If else Statements:
+    If else statements help us write programs that can take divisions based on data.
+    they work based on the boolean values.
+Syntax:
+Simple If statement:
+    if(condition){
+    // write code here that you want to execute if condition is true
+    }
+
+If else statement.
+    if(condition){
+        // write code here that you want to execute if condition is true
+        }else{
+
+        }
+
+Note:
+    1)we can press Ctrl+alt+l(windows) or (Cmd+opt+l) to format the code.
+    2)we can click on the starting curly bracket and intellij will highlight the ending
+    one.
+    3)we can double-click anywhere inside a block(anything that a starting { and ending})
