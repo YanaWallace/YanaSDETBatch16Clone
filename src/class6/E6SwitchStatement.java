@@ -8,6 +8,7 @@ public class E6SwitchStatement {
         switch (name){
             case "Vlad":
             System.out.println("Algonquin");
+                System.out.println(10+23);
             break;
             case "Jacob":
                 System.out.println("Chicago");
