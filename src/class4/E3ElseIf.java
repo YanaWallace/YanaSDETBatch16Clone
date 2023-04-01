@@ -3,7 +3,7 @@ package class4;
 public class E3ElseIf {
     public static void main(String[] args) {
         // break till 11:59
-        int day = 120;
+        int day = 7;
         if (day == 1) {
             System.out.println("Monday");
         } else if (day == 2) {
