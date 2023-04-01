@@ -1,0 +1,8 @@
+Loops:
+    Loops help us repeat a piece of code until a condition is false.
+why should we use loops?
+    By using loops we can avoid code duplication.
+what is the Syntax for a while loop?
+    while(condition){
+    // code that we want to repeat
+    }
