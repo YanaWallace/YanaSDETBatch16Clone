@@ -24,3 +24,7 @@ How do we know which loop we should user:
     when we don't know how many times we need to repeat a block of code we
     should be going with while loop most of the time it happens when the user
     input is involved
+Break keyword:
+    Break keyword is used to terminate the loop prematurely.
+why we want to do that?
+
