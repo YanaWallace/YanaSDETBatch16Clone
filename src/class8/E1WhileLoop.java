@@ -11,7 +11,9 @@ public class E1WhileLoop {
         System.out.println("Please enter the starting point, ending point");
         int start=scanner.nextInt();
         int end=scanner.nextInt();
+
         int counter=start;
+
         while(counter<=end){
             System.out.print(counter+" ");
             counter++;

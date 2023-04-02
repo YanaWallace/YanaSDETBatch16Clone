@@ -18,3 +18,9 @@ syntax for the do-while loop:
 
     code that we want to repeat
     }while(condition);
+How do we know which loop we should user:
+    When you know exactly how many times you want to loop
+    through a block of code, use the for loop instead of a while loop
+    when we don't know how many times we need to repeat a block of code we
+    should be going with while loop most of the time it happens when the user
+    input is involved
