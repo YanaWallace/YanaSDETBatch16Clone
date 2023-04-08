@@ -8,8 +8,6 @@ public class E1Arrays {
         String name3="Farwa";
         String name4;
 
-
-
         /*
         String => data type
         []=> this is a part of the syntax
