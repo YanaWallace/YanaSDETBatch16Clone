@@ -1,0 +1,13 @@
+Arrays:
+    Arrays are collection of items. We can store primitive and non-primitive data
+    inside arrays.
+Why we should learn about arrays?
+    1)They help us manage large amounts of data efficiently.
+    2) we can process the data stored in arrays using loops
+syntax:
+    datatype [] name={element 1,element 2,element 3};
+
+Shortcuts:
+    1)after the array type iter and intellij will write a enhanced for loop for you
+    2) we can place the cursor on the for loop and click on the buld icon to change
+    one loop with another one
