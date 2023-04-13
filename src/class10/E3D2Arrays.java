@@ -10,7 +10,19 @@ public class E3D2Arrays {
 
         int [] arr1=matrix[0];
         for (int i = 0; i < arr1.length; i++) {
-            System.out.println(arr1[i]);
+            System.out.print(arr1[i]+" ");
+        }
+
+        System.out.println();
+          arr1=matrix[1];
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i]+" ");
+        }
+
+        System.out.println();
+        arr1=matrix[2];
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i]+" ");
         }
 
 
