@@ -11,5 +11,6 @@ public class E1D2Array {
         System.out.println(matrix[1][1]);
         System.out.println(matrix[1][2]);
         System.out.println(matrix[0][0]);
+
     }
 }

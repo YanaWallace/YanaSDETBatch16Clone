@@ -1,0 +1,11 @@
+what are 2D arrays:
+    2D arrays are collection of 1D arrays. That we can use to store the data in the form
+    of rows and columns just like we have in excel files in the form of tables
+    on webpages.
+Syntax:
+    Approach 1:
+    data types [][] variableName= new data types[size of rows][size of columns];
+    Approach 2:
+    data types [][] variableName={{ element 1,element 2,element 3},
+                                    {element 4,element 5,element 6}
+                                    };
