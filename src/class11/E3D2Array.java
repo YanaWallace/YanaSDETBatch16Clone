@@ -8,8 +8,9 @@ public class E3D2Array {
                 {"Farwa", "Halima", "Alina", "Semir"}
         };
 
-        //Break till 1:53
+        //Break till 11:53
        for(String [] name1DArr:names2DArray){
+
            for (String name:name1DArr){
                System.out.println(name);
            }
