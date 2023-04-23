@@ -17,3 +17,7 @@ Q1)built a program that does not waste a lot of memory its okay if it is a littl
 String
 Q2) built a program that is as fast as possible its okay if it takes a little more time
 Stringbuilder
+Break till 1:53
+Method:
+    Method is a block of code that contains java code which is executed when we call
+    that method. In java methods can only exists inside classes
