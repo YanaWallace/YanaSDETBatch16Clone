@@ -11,4 +11,9 @@ define methods here
 
 }
 Some very famous classes in java:
-1)String
+String
+==============================================
+Q1)built a program that does not waste a lot of memory its okay if it is a little slow
+String
+Q2) built a program that is as fast as possible its okay if it takes a little more time
+Stringbuilder
