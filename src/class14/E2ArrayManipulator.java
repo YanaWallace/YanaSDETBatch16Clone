@@ -17,13 +17,15 @@ public class E2ArrayManipulator {
     go throug all the elements of the array add them and return the results
     }
      */
-    int sumArr(int [] arr){int sum=0;
+    int sumArr(int[] arr){
+        int sum=0;
        for(int i=0; i<arr.length;i++){
 
            sum=sum+arr[i];
        }
         return sum;
     }
+    //braek till 11:50
     public static void main(String[] args) {
 
         E2ArrayManipulator obj=new E2ArrayManipulator();

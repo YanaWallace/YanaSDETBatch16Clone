@@ -8,3 +8,6 @@ Why we should learn about methods:
     3) changing code becomes easier.
 Syntax
     return type
+when to create a method?
+    when ever we are repeating more than three lines of code at least twice
+    you can go for a method.
