@@ -7,6 +7,7 @@ public class E5Tester {
         E5ArrayUtils obj = new E5ArrayUtils();
         boolean result = obj.contains(arr, number);
         System.out.println(result);
+        // break till1:57
 
     }
 }
