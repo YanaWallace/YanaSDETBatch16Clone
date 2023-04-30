@@ -38,6 +38,8 @@ Upside:
     1) Instance variables Can be used without initialing.
     2) instance variables can be shared between all instance methods of a class.
 Downside:
+    1)They tend to occupy the memory for longer as compared to local variables.
+    2) They are hard to debug.
 
 static variables:
     all the instance variables with static keyword are called static variables.
