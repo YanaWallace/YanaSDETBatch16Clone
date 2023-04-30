@@ -13,3 +13,44 @@ why we should use methods?
         2) Organize the code
         3) changing code becomes easier.
 how to create method in java?
+=====================================================================
+Types of variables w.r.t scope(coverage, reach,the visibility and accessibility)
+    There are three types of variables with respect to scope. local, instance and
+    static variables.
+local variables:
+    local variables are created inside block of codes they can only be accessed
+    with that block for example all the variables that we create inside
+    methods, if statements, switch case statements, loops etc.
+
+Upside:
+    1)local variables stay shorter in the memory the moment that block
+    of code is done executing memory is freed and is available to be re-used.
+    2) We can re-use the same name for other variables in other blocks of code.
+Downside:
+    They have limited visibility. They can't be used outside of the block in which
+    they are created.
+    2)Initialization is mandatory for local variables, and failure to do so
+    results in a compilation error.
+instance variables:
+    instance variables are created outside of any block of code like method,
+    loop,if statement etc but they are inside a class.
+Upside:
+    1) Instance variables Can be used without initialing.
+    2) instance variables can be shared between all instance methods of a class.
+Downside:
+
+static variables:
+    all the instance variables with static keyword are called static variables.
+
+
+
+
+
+
+
+
+
+
+
+
+

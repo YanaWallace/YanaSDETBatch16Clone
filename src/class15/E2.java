@@ -22,9 +22,16 @@ public class E2 {
         return sum;
     }
 
+    void printNumber(){
+        //sum is a local variable we can't access it in this method
+       // System.out.println(sum);
+    }
+
     public static void main(String[] args) {
         E2 e2=new E2();
-        int sum=e2.sumArr(new int[]{10,10,10});
+        int [] arr={10,10,10};
+       // int sum=e2.sumArr(new int[]{10,10,10});
+        int sum= e2.sumArr(arr);
         System.out.println(sum);
         // break till 11:58
 
