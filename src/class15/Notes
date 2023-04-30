@@ -43,7 +43,24 @@ Downside:
 
 static variables:
     all the instance variables with static keyword are called static variables.
-
+Upside:
+    1) They can be shared across instances static methods and
+    the instances of a class.
+    2) only one memory location is reserved for static variables even though we
+    create 1 million objects of that class.
+downSide:
+    1) They code can be hard to debug we we don't use the final keyword.
+    2) If value is changed anywhere in the code that gets changed for the complete
+    application.
+when we should use local variables:
+    Always when ever possible.
+when we should use instance variables:
+    1) If we have to share something in more than 1 instance methods.
+    2) When we are planning to create multiple objects of a class and these objects
+    can have different values for different objects we should go with instance variables
+when we should use static variables:
+    1) when we want to share something globally in all the classes methods blocks of code.
+    2) Mostly used to create constants like no of months no of days value of PI value of G etc.
 
 
 
