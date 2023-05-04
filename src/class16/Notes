@@ -19,7 +19,20 @@ Access Modifiers:
 private:
     It we write private keyword with any variable method constructor etc no one else
     outside of that class can access it.
-Break till 8:50
+default:
+    All the entities with default access can be accessed within the same class as well as in any
+    other class within the same package
+protected:
+    This will be discussed after inheritance.
+public:
+    if something is public all the classes in a project
+    can access it.
+How do we decide the access level
+==========================================================
+1)fields/properties/instance variables are almost always created as private.
+2) methods 70 to 80% of the time are declared as public.
+3) 98% to 99% classes are declared as public.
+
 
 
 

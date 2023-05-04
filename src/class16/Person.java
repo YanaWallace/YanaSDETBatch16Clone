@@ -1,7 +1,11 @@
 package class16;
 
+import java.util.Scanner;
+
 public class Person {
 
+   public String name="Vlad";
+    String SSN="1234567899";
     private String password;
     private static double bankBalance = 12000;
 
@@ -18,6 +22,9 @@ public class Person {
         farwa.password = "12345";
         farwa.printPassword();
         System.out.println(Person.bankBalance);
+        System.out.println(farwa.SSN);
+        System.out.println(farwa.name);
+
 
     }
 

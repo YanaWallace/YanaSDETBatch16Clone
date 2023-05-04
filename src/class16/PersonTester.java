@@ -6,6 +6,8 @@ public class PersonTester {
       //  person.password="ksndks";
        // person.printPassword();
        // Person.printBalance();
+        System.out.println(person.SSN);
+        System.out.println(person.name);
 
     }
 }
