@@ -1,5 +1,7 @@
 package class17;
 
+import java.util.Scanner;
+
 public class DogTester {
     public static void main(String[] args) {
 
@@ -53,6 +55,9 @@ new Dog()
         dog3.printInfo();
         dog4.printInfo();
         dog5.printInfo();
+
+        // Break till 11:54
+        Scanner scanner=new Scanner(System.in);
 
 
 
