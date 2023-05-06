@@ -1,0 +1,5 @@
+Constructor:
+    A constructor is a special method that is automatically called when an object
+    of a class is created. It is used to initialize the object with the values
+    provided as arguments to the constructor. If no constructor is defined in a
+    class, a default constructor is automatically created by Java.
