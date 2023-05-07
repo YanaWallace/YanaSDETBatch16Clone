@@ -22,4 +22,11 @@ public class Car {
         this.year=year;
 
     }
+
+    void startCar(){
+        System.out.println("Car started");
+    }
+    void stopCar(){
+        System.out.println("Car stopped");
+    }
 }

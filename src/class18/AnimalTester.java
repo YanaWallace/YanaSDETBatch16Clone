@@ -12,5 +12,11 @@ public class AnimalTester {
         System.out.println( horse.color="Black");
         horse.eat();
 
+        Cat cat=new Cat();
+        cat.name="Mano";
+        cat.sleep();
+        cat.speak();
+        // break till 12:03
+
     }
 }
