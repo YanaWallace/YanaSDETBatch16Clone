@@ -32,12 +32,13 @@ public class Animal {
 class Dog extends Animal {
     double price;
 
+    // break till 8:56
     public Dog(String name, String color, String breed, int age, double weight, double price) {
         super(name, color, breed, age, weight);
-        this.price = price;
+        this.price = price; // assigning the price
     }
     void printInfo(){
-        super.printInfo();
+        super.printInfo(); // reusing the printInfo method from parent class by using super keyword
         System.out.println(price);
     }
 }
@@ -63,5 +64,6 @@ class AnimalTester{
     public static void main(String[] args) {
         Dog dog=new Dog("Tom","Black","persian",10,20,200);
         dog.printInfo();
+
     }
 }
