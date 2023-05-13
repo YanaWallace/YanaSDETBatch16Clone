@@ -15,6 +15,12 @@ class Animal{
         System.out.println(name+" "+color+" "+breed);
     }
 }
+class Cat extends Animal{
+
+    public Cat(String name, String color, String breed) {
+        super(name, color, breed);
+    }
+}
 public class Dog extends Animal{
 
 
@@ -26,6 +32,17 @@ class AnimalTester{
     public static void main(String[] args) {
         Dog dog=new Dog("shaggy","black","German");
         dog.printInfo();
+        //Parent class variables can store the objects of the child classes
+        Animal dog1=new Dog("shaggy","black","German");
+        dog1.printInfo();
+
+        Animal [] animals={new Dog("shaggy","black","German"),new Cat("Tom","Blue","persian")};
+
+        for(Animal animal:animals){
+            animal.printInfo();
+        }
+
+
 
     }
 }
