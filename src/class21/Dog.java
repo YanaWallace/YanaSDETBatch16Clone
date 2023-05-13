@@ -30,8 +30,18 @@ class Cat extends Animal{
     public Cat(String name, String color, String breed) {
         super(name, color, breed);
     }
+    @Override
     void speak(){
         System.out.println("Meow meow.....");
+    }
+    @Override
+    void eat(){
+        System.out.println("Cats like to eat Fish");
+    }
+
+    @Override
+    void sleep() {
+        System.out.println("Cats like to sleep 15 hours on Average");
     }
 }
 public class Dog extends Animal{
@@ -41,8 +51,19 @@ public class Dog extends Animal{
         super(name, color, breed);
     }
 
+    @Override
     void speak(){
         System.out.println("woof woof");
+    }
+
+    @Override
+    void sleep() {
+        System.out.println("Dogs sleep 8 hours");
+    }
+
+    @Override
+    void eat() {
+        System.out.println("Dogs like to chew the bones");
     }
 }
 
