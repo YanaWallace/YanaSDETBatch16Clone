@@ -1,5 +1,6 @@
 package class20;
 
+
 public class Animal {
     /*
     Below we have fields/properties/attributes/ instance variables
@@ -11,6 +12,8 @@ public class Animal {
         this.name=name;
         this.color=color;
         this.age=age;
+
+
     }
 
     void sleep(){
