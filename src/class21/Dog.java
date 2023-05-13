@@ -39,6 +39,8 @@ class Cat extends Animal{
         System.out.println("Cats like to eat Fish");
     }
 
+
+
     @Override
     void sleep() {
         System.out.println("Cats like to sleep 15 hours on Average");
@@ -61,6 +63,9 @@ public class Dog extends Animal{
         System.out.println("Dogs sleep 8 hours");
     }
 
+    void run(){
+        System.out.println("Dog can run Fast");
+    }
     @Override
     void eat() {
         System.out.println("Dogs like to chew the bones");
