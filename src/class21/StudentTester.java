@@ -17,7 +17,7 @@ public class StudentTester {
             mates.walk();
         }
 
-        // break till 2:17
+        // break till 2:18
 
         Student syntax = new SchoolStudent();
         if (syntax instanceof SyntaxStudent) {
@@ -29,6 +29,7 @@ public class StudentTester {
 
         Student school = new SchoolStudent();
         ((SchoolStudent) school).fight();
+
 
 
     }

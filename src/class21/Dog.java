@@ -1,6 +1,6 @@
 package class21;
 
-class Animal{
+class Animal {
     String name;
     String color;
     String breed;
@@ -11,34 +11,38 @@ class Animal{
         this.breed = breed;
     }
 
-    void printInfo(){
-        System.out.println(name+" "+color+" "+breed);
+    void printInfo() {
+        System.out.println(name + " " + color + " " + breed);
     }
 
-    void speak(){
+    void speak() {
         System.out.println("Animals speak");
     }
-    void sleep(){
+
+    void sleep() {
         System.out.println("Animals sleep from 1 to 20 hours a day");
     }
-    void eat(){
+
+    void eat() {
         System.out.println("Animals eat many different things ");
     }
 }
-class Cat extends Animal{
+
+class Cat extends Animal {
 
     public Cat(String name, String color, String breed) {
         super(name, color, breed);
     }
+
     @Override
-    void speak(){
+    void speak() {
         System.out.println("Meow meow.....");
     }
+
     @Override
-    void eat(){
+    void eat() {
         System.out.println("Cats like to eat Fish");
     }
-
 
 
     @Override
@@ -46,7 +50,8 @@ class Cat extends Animal{
         System.out.println("Cats like to sleep 15 hours on Average");
     }
 }
-public class Dog extends Animal{
+
+public class Dog extends Animal {
 
 
     public Dog(String name, String color, String breed) {
@@ -54,7 +59,7 @@ public class Dog extends Animal{
     }
 
     @Override
-    void speak(){
+    void speak() {
         System.out.println("woof woof");
     }
 
@@ -63,22 +68,24 @@ public class Dog extends Animal{
         System.out.println("Dogs sleep 8 hours");
     }
 
-    void run(){
+    void run() {
         System.out.println("Dog can run Fast");
     }
+
     @Override
     void eat() {
         System.out.println("Dogs like to chew the bones");
     }
 }
 
-class Horse extends Animal{
+class Horse extends Animal {
 
     public Horse(String name, String color, String breed) {
         super(name, color, breed);
     }
+
     @Override
-    void speak(){
+    void speak() {
         System.out.println("neigh neigh");
     }
 
@@ -93,21 +100,26 @@ class Horse extends Animal{
     }
 }
 
-class AnimalTester{
+class AnimalTester {
     public static void main(String[] args) {
-        Dog dog=new Dog("shaggy","black","German");
+        Dog dog = new Dog("shaggy", "black", "German");
         dog.printInfo();
         //Parent class variables can store the objects of the child classes
-        Animal dog1=new Dog("shaggy","black","German");
+        Animal dog1 = new Dog("shaggy", "black", "German");
         dog1.printInfo();
         // 11:54
-        Animal [] animals={new Dog("shaggy","black","German"),new Cat("Tom","Blue","persian")};
+        Animal[] animals = {new Dog("shaggy", "black", "German"), new Cat("Tom", "Blue", "persian")};
 
-        for(Animal animal:animals){
+        for (Animal animal : animals) {
             animal.printInfo();
         }
 
+        //type casting(widening)
+        double d = 10;
+        Animal dog2 = new Dog("shaggy", "black", "German");
 
+        int g = (int) 10.5;
+      //  Dog dog3= new Animal("shaggy", "black", "German");
 
     }
 }
