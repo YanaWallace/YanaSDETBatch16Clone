@@ -1,4 +1,5 @@
-Create a method that will find a number from an array.
+1)Create a method that will find a number from an array.
+2)create a method to get the average of numbers from an array
 
 
     public boolean numFromArr(int[] arr) {
