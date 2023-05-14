@@ -11,7 +11,7 @@ public abstract class Animal {
     private  String color;
    final private  String breed;
 
-    public Animal(String name, String color, String breed) {
+    public  Animal(String name, String color, String breed) {
         this.name = name;
         this.color = color;
         this.breed = breed;
@@ -31,7 +31,7 @@ public abstract class Animal {
 
 class Dog extends Animal {
 
-    public Dog(String name, String color, String breed) {
+   public Dog(String name, String color, String breed) {
         super(name, color, breed);
     }
 
