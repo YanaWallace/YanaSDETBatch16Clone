@@ -47,4 +47,9 @@ class Main implements ArrayUtil{
         }
         return sum;
     }
+
+    @Override
+    public int add(int num1, int num2) {
+        return num1+num2;
+    }
 }
