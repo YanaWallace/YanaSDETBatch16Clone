@@ -25,6 +25,12 @@ public class E2ArrayList {
             System.out.println(numbers.get(i));
             i++;
         }
+        System.out.println("***********************");
+        int j=0;
+        do{
+            System.out.println(numbers.get(j));
+            j++;
+        }while (j<numbers.size());
 
     }
 }
