@@ -11,6 +11,7 @@ public class E1ArrayList {
         write the name of the class who's objects we are planning to store in
         an arraylist
          */
+        //creating the object of the car class storing it in a variable car1
         Car car1=new Car("Toyota","Prius");
         Car car2=new Car("Honda","Civic");
         Car car3=new Car("BMW","I7");
