@@ -14,6 +14,7 @@ public class EntrySetTester {
             if(e.getKey().contains("i")&& e.getValue()>2){
             System.out.println(e.getKey()+" "+e.getValue());}
         }*/
+        //Break till 11:52
         entrySet.removeIf(x->x.getKey().contains("i")&& x.getValue()>2);
         System.out.println(entrySet);
     }
