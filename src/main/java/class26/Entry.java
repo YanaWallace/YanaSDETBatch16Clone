@@ -19,9 +19,6 @@ public class Entry {
 
     @Override
     public String toString() {
-        return "Entry{" +
-                "key='" + key + '\'' +
-                ", value=" + value +
-                '}';
+        return key+" " +value;
     }
 }
