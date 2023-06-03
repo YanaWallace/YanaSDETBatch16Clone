@@ -28,6 +28,7 @@ public class E2ConfigReader {
 
         WebElement login = driver.findElement(By.cssSelector(".button"));
         login.click();
+        // Break till 11:45
     }
 
     public static String getProperty(String key) throws IOException {
@@ -35,5 +36,6 @@ public class E2ConfigReader {
         Properties properties=new Properties();
         properties.load(fis);
        return properties.getProperty(key);
+
     }
 }

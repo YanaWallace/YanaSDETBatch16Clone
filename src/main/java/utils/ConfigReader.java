@@ -11,6 +11,7 @@ public class ConfigReader {
         Properties properties=new Properties();
         properties.load(fileInputStream);
         return properties;
+        // 11:52
     }
 
     public static String getProperty(String key) throws IOException {
